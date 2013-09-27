@@ -1,0 +1,10 @@
+usage: terminator.py [-h] (-i | -r) [-t TIME] [-v]
+
+Install a LaunchDaemon that forces shutdown at a defined time.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i, --install
+  -r, --remove
+  -t TIME, --time TIME  set desired execution time (default: 22:30)
+  -v, --version         show program's version number and exit
